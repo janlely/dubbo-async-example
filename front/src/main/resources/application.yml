@@ -1,0 +1,10 @@
+dubbo:
+  registry:
+    address: zookeeper://172.17.0.2:2181
+  protocol:
+    name: front
+  application:
+    name: front
+spring:
+  application:
+    name: dubbo-demo
